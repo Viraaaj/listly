@@ -1,3 +1,4 @@
+import Head from "next/head";
 import styles from "../../styles/Id.module.css";
 
 export const getStaticPaths = async () => {
@@ -33,12 +34,21 @@ export const getStaticProps = async (context) => {
 
 const Details = ({ person }) => {
   return (
+    <>
+    <Head>
+      <title>
+        Listly | User Info
+      </title>
+
+      <meta name="UserInfo" content="UserInfo" />
+    </Head>
     <div>
       <h1 className={styles.name}>{person.name}</h1>
       <h4 className={styles.id}>{"Email: " + person.email}</h4>
       <h4 className={styles.id}>{"Website: " + person.website}</h4>
       <h4 className={styles.id}>{"City: " + person.address.city}</h4>
     </div>
+    </>
   );
 };
 

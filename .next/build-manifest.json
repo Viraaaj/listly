@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/6g6pnnp9EOSI_XqCIGmko/_buildManifest.js",
-    "static/6g6pnnp9EOSI_XqCIGmko/_ssgManifest.js"
+    "static/S9cw8zTiO_wdHl6K8OE48/_buildManifest.js",
+    "static/S9cw8zTiO_wdHl6K8OE48/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -14,13 +14,13 @@
       "static/chunks/framework-92300432a1172ef1338b.js",
       "static/chunks/main-899697ea82bdc85e7a94.js",
       "static/css/af6087f70c799df5ec55.css",
-      "static/chunks/pages/index-49734972acb5609042bb.js"
+      "static/chunks/pages/index-cb0e475c7a17fa3f5743.js"
     ],
     "/404": [
       "static/chunks/webpack-189c53927ffd3caf09c3.js",
       "static/chunks/framework-92300432a1172ef1338b.js",
       "static/chunks/main-899697ea82bdc85e7a94.js",
-      "static/chunks/pages/404-b97c7dd5b863c6d01873.js"
+      "static/chunks/pages/404-27203b38f6618a08a204.js"
     ],
     "/_app": [
       "static/chunks/webpack-189c53927ffd3caf09c3.js",
@@ -40,21 +40,21 @@
       "static/chunks/framework-92300432a1172ef1338b.js",
       "static/chunks/main-899697ea82bdc85e7a94.js",
       "static/css/4db634ef8ff886202dcc.css",
-      "static/chunks/pages/about-2d016894088a10274c8c.js"
+      "static/chunks/pages/about-b074a42d6ea6751905cb.js"
     ],
     "/lists": [
       "static/chunks/webpack-189c53927ffd3caf09c3.js",
       "static/chunks/framework-92300432a1172ef1338b.js",
       "static/chunks/main-899697ea82bdc85e7a94.js",
       "static/css/45fb47c05b3e8150bd2d.css",
-      "static/chunks/pages/lists-4daf02f14d9157f11c46.js"
+      "static/chunks/pages/lists-58409a4f27a291e183e4.js"
     ],
     "/lists/[id]": [
       "static/chunks/webpack-189c53927ffd3caf09c3.js",
       "static/chunks/framework-92300432a1172ef1338b.js",
       "static/chunks/main-899697ea82bdc85e7a94.js",
       "static/css/2871f1b9699d04803bdf.css",
-      "static/chunks/pages/lists/[id]-497fee5de3f2f1015862.js"
+      "static/chunks/pages/lists/[id]-c494a796ab99ac02b00c.js"
     ]
   },
   "ampFirstPages": []

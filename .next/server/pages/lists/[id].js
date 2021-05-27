@@ -15,8 +15,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5282);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_Id_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7619);
-/* harmony import */ var _styles_Id_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(701);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_Id_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7619);
+/* harmony import */ var _styles_Id_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
 
 
 
@@ -52,19 +56,28 @@ const getStaticProps = async context => {
 const Details = ({
   person
 }) => {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-    children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-      className: (_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_1___default().name),
-      children: person.name
-    }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-      className: (_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_1___default().id),
-      children: "Email: " + person.email
-    }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-      className: (_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_1___default().id),
-      children: "Website: " + person.website
-    }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-      className: (_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_1___default().id),
-      children: "City: " + person.address.city
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
+      children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
+        children: "Listly | User Info"
+      }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+        name: "UserInfo",
+        content: "UserInfo"
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+      children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+        className: (_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_2___default().name),
+        children: person.name
+      }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+        className: (_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_2___default().id),
+        children: "Email: " + person.email
+      }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+        className: (_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_2___default().id),
+        children: "Website: " + person.website
+      }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+        className: (_styles_Id_module_css__WEBPACK_IMPORTED_MODULE_2___default().id),
+        children: "City: " + person.address.city
+      })]
     })]
   });
 };
@@ -82,6 +95,14 @@ module.exports = {
 	"id": "Id_id__2pIAZ"
 };
 
+
+/***/ }),
+
+/***/ 701:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("next/head");;
 
 /***/ }),
 
